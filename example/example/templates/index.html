@@ -1,0 +1,49 @@
+{% extends "django_bootstrapr/base.html" %}
+
+{% block page_title %}django_bootstrapr{% endblock %}
+{% block project_name %}django_bootstrapr{% endblock %}
+
+{% block container %}
+<div class="container">
+        <section id="examples">
+          <div class="page-header">
+            <h1>Examples</h1>
+          </div>
+          <ul class="thumbnails bootstrap-examples">
+            <li class="span3">
+              <a class="thumbnail" href="/base/">
+                <img src="{{ STATIC_URL }}img/bootstrap-example-starter.png" alt="">
+              </a>
+              <h4>Starter template</h4>
+              <p>A barebones HTML document with all the Bootstrap CSS and JavaScript included.</p>
+              <p><strong>Template:</strong> django_bootstrapr/base.html</p>
+            </li>
+            <li class="span3">
+              <a class="thumbnail" href="/base_hero/">
+                <img src="{{ STATIC_URL }}img/bootstrap-example-marketing.png" alt="">
+              </a>
+              <h4>Basic marketing site</h4>
+              <p>Featuring a hero unit for a primary message and three supporting elements.</p>
+              <p><strong>Template:</strong> django_bootstrapr/base_hero.html</p>
+            </li>
+            <li class="span3">
+              <a class="thumbnail" href="/base_fluid/">
+                <img src="{{ STATIC_URL }}img/bootstrap-example-fluid.png" alt="">
+              </a>
+              <h4>Fluid layout</h4>
+              <p>Uses our new responsive, fluid grid system to create a seamless liquid layout.</p>
+              <p><strong>Template:</strong> django_bootstrapr/base_fluid.html</p>
+            </li>
+
+            <li class="span3">
+              <a class="thumbnail" href="/base_masthead/">
+                <img src="{{ STATIC_URL }}img/bootstrap-example-marketing-narrow.png" alt="">
+              </a>
+              <h4>Narrow marketing</h4>
+              <p>Slim, lightweight marketing template for small projects or teams.</p>
+              <p><strong>Template:</strong> django_bootstrapr/base_masthead.html</p>
+            </li>
+          </ul>
+        </section>
+</div>
+{% endblock %}

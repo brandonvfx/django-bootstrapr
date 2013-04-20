@@ -1,0 +1,2 @@
+recursive-include django_bootstrapr/static *.css *.js *.png
+recursive-include django_bootstrapr/templates *.html
