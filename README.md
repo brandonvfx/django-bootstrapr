@@ -1,6 +1,6 @@
 # Django Bootstrapr
 
-A simple app for adding Twitter Boostrap to your project. Includes 4 base templates from the Bootstrap examples page.
+A simple app for adding Twitter Bootstrap to your project. Includes 4 base templates from the Bootstrap examples page.
 
 ## Current Bootstrap Version
 2.3.1
